@@ -1,0 +1,43 @@
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css"); 
+@import url("components/banner.css"); 
+@import url("components/card.css"); 
+
+
+
+body {
+	font-family: 'Lora';
+	font-size: 18px ;
+	margin: 0px;
+	.card img {
+  width: 100%; /* L'image prend la largeur de son conteneur */
+  max-width: 250px; /* Largeur maximale */
+  height: 150px; /* Hauteur fixe pour que toutes les images soient uniformes */
+  object-fit: cover; /* Garde le centrage et découpe si nécessaire */
+  border-radius: 4px;
+  margin-bottom: 15px; /* Espace sous l'image */
+  display: block; /* Assure que l'image se comporte comme un bloc */
+
+.design-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Aligne le contenu à gauche */
+  padding-left: 20px; /* Décale légèrement vers la droite */
+}
+
+.design-title h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+}
+
+h1, h2, h3 {
+	font-family: "Newsreader",sans-serif;
+	font-weight: bold;
+
+}
+
